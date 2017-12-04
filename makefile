@@ -15,7 +15,7 @@ readme.txt: guessinggame.sh
 
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> readme.txt
 
-	echo "Here is the link to [GitHubPage](ikaikamute1.github.io/my-unixworkbenchproject-repo)" >> readme.txt
+	echo "Here is the link to [GitHubPage](ikaikamute1.github.io/my-unixworkbenchproject-repo/)" >> readme.txt
 
 README.md: readme.txt
 	cp readme.txt README.md
